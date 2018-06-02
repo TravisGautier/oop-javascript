@@ -20,6 +20,7 @@ function Circle(radius){
         console.log("draw")
     }
 }
+const circle2 = new Circle(10);
 
 const Circle1= new Function('radius', `
     this.radius - radius;
